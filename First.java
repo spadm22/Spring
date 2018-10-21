@@ -5,5 +5,12 @@ class First{
     First f = new First();
     f.m1("Raja");
   }
- 
+
+  public void m1(String name){
+    System.out.println(name);
+  }
+  public void m2(int name){
+    System.out.println(name);
+  }
+
 }
